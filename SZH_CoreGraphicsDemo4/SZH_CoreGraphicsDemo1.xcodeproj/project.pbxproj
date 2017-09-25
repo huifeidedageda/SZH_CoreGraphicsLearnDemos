@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A642E0B01F789028001979AC /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = A642E0AF1F789028001979AC /* 123.png */; };
+		A642E0FA1F78FFCB001979AC /* myLayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A642E0F91F78FFCB001979AC /* myLayerDelegate.m */; };
 		A677923C1F75032200F85A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A677923B1F75032200F85A67 /* AppDelegate.m */; };
 		A677923F1F75032200F85A67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677923E1F75032200F85A67 /* ViewController.m */; };
 		A67792421F75032200F85A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67792401F75032200F85A67 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		A642E0AF1F789028001979AC /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		A642E0F81F78FFCB001979AC /* myLayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myLayerDelegate.h; sourceTree = "<group>"; };
+		A642E0F91F78FFCB001979AC /* myLayerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myLayerDelegate.m; sourceTree = "<group>"; };
 		A67792371F75032200F85A67 /* SZH_CoreGraphicsDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZH_CoreGraphicsDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A677923A1F75032200F85A67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A677923B1F75032200F85A67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				A677923E1F75032200F85A67 /* ViewController.m */,
 				A677926C1F7503B700F85A67 /* SZH_BezierPathView.h */,
 				A677926D1F7503B700F85A67 /* SZH_BezierPathView.m */,
+				A642E0F81F78FFCB001979AC /* myLayerDelegate.h */,
+				A642E0F91F78FFCB001979AC /* myLayerDelegate.m */,
 				A67792401F75032200F85A67 /* Main.storyboard */,
 				A67792431F75032200F85A67 /* Assets.xcassets */,
 				A67792451F75032200F85A67 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			files = (
 				A677926E1F7503B700F85A67 /* SZH_BezierPathView.m in Sources */,
 				A677923F1F75032200F85A67 /* ViewController.m in Sources */,
+				A642E0FA1F78FFCB001979AC /* myLayerDelegate.m in Sources */,
 				A677924A1F75032200F85A67 /* main.m in Sources */,
 				A677923C1F75032200F85A67 /* AppDelegate.m in Sources */,
 			);

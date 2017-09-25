@@ -31,11 +31,15 @@
 //    [self szh_test2];
 //    [self szh_test5];
 //    [self szh_test6];
+    
+    //第三种绘图形式：必须调用父类方法
+    [super drawRect:rect];
 }
 
 - (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
 
-    [self szh_test4:ctx];
+    //第三种绘图形式：必须调用父类方法
+    [super drawLayer:layer inContext:ctx];
 
 }
 
@@ -62,7 +66,7 @@
     
 }
 
-//第三种绘图形式：我将在UIView子类的drawLayer:inContext：方法中实现绘图任务。？不确定
+//第三种绘图形式：我将在UIView子类的drawLayer:inContext：方法中实现绘图任务。
 - (void)szh_test3 {
     
     
